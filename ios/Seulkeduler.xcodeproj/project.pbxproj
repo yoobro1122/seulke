@@ -32,6 +32,7 @@
 		62C76865689B80F65326B7F1 /* TodaySheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69C70BC99EC760D78EE0534 /* TodaySheet.swift */; };
 		6346FF8EA32CAF0ACE42FD80 /* RecurrenceSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5D10CCB101F20D64400208 /* RecurrenceSheet.swift */; };
 		635AB549BE527EBC613FEE85 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43608262DD38E54502AA943F /* NotificationService.swift */; };
+		68C9ECBD9E75F293EC5C9F4C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8CD5FFA1C5A9B962DA1C77BB /* InfoPlist.strings */; };
 		6AE370DE1A52A648D15FB11B /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37E6FC5EAD1FD75AF7818DA /* Models.swift */; };
 		6E7EDAE47C84FB5800CA5EB0 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D457A935E0E91E8DEB4AB65A /* RootView.swift */; };
 		7020B5B2FEB25072BC397BB7 /* SeulDial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540026E47EE3A0E68216FEE0 /* SeulDial.swift */; };
@@ -60,6 +61,7 @@
 		EDB6DF1969E7DB6BC82F2563 /* CheckinOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589581B033924CF7F30A81E0 /* CheckinOverlay.swift */; };
 		F09BAF696AC45E440FE34BE6 /* DialModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CF0969F26E5B550EE5B7F4 /* DialModeView.swift */; };
 		FC2F7900DACA8116883DBF6B /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741409CF31BC60E1125F5FB1 /* Components.swift */; };
+		FE197D4A76B9A495508A6E59 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D58730CA5A94AF87232E02F2 /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +109,7 @@
 		1669274336518574804CAFCF /* ProgressSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressSummaryView.swift; sourceTree = "<group>"; };
 		17542248DF29D44694F62CC1 /* ThemeEditorSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeEditorSheet.swift; sourceTree = "<group>"; };
 		1961ED98AEAD2A69E02E6BF6 /* SeulWidget.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = SeulWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		19C5B40EDB3791C243DFE74B /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1D5B849FE144B4FE2B1C2FE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F299CB8BCECC82B6945AD01 /* AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
 		2C2FA7BFE48417B3776126E7 /* TimelineListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineListView.swift; sourceTree = "<group>"; };
@@ -122,6 +125,7 @@
 		47D04F3F9E4FBEA11A133386 /* SeulkedulerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeulkedulerUITests.swift; sourceTree = "<group>"; };
 		49C04C1F9FBF381A76B374CA /* SeulkedulerUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = SeulkedulerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		51F9527560AED56CE8FC4557 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5294FC9D0FB640090FA7E3D1 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		53ED29B37DA2BDAD5C20A770 /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
 		540026E47EE3A0E68216FEE0 /* SeulDial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeulDial.swift; sourceTree = "<group>"; };
 		589581B033924CF7F30A81E0 /* CheckinOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckinOverlay.swift; sourceTree = "<group>"; };
@@ -252,6 +256,7 @@
 			isa = PBXGroup;
 			children = (
 				51F9527560AED56CE8FC4557 /* Info.plist */,
+				8CD5FFA1C5A9B962DA1C77BB /* InfoPlist.strings */,
 				81931C230E9B764F4C451825 /* SeulWidget.entitlements */,
 				DF480183876326ED9E8DD555 /* SeulWidget.swift */,
 			);
@@ -271,6 +276,7 @@
 			isa = PBXGroup;
 			children = (
 				A3E9DE2F94BB99D930EFBDF7 /* Info.plist */,
+				D58730CA5A94AF87232E02F2 /* InfoPlist.strings */,
 				014AAE845B4DD8CC0127DA9D /* Seulkeduler.entitlements */,
 				384AC9D430696188300BA7C1 /* App */,
 				4FAA632AC771BC96906C42C7 /* Services */,
@@ -479,6 +485,7 @@
 				EB02FB3B96D892CA8729AEA0 /* Assets.xcassets in Resources */,
 				2AD1538537637AF7E566570C /* IBMPlexMono-Medium.ttf in Resources */,
 				1E8C5B47DEAABB20BD7B223F /* IBMPlexMono-Regular.ttf in Resources */,
+				FE197D4A76B9A495508A6E59 /* InfoPlist.strings in Resources */,
 				185E162120EE3404641525D6 /* Inter-Medium.ttf in Resources */,
 				483BE535ADFA009D9FB418F3 /* Inter-Regular.ttf in Resources */,
 				DB62AD658C5DB8D1A78E037B /* PlayfairDisplay-SemiBold.ttf in Resources */,
@@ -491,6 +498,7 @@
 			files = (
 				4B9DEEB40BF06B4B0D1A2D44 /* IBMPlexMono-Medium.ttf in Resources */,
 				744FEA36BB3C33FE9215A8EB /* IBMPlexMono-Regular.ttf in Resources */,
+				68C9ECBD9E75F293EC5C9F4C /* InfoPlist.strings in Resources */,
 				EBD8DFCDD791007DB1655938 /* Inter-Medium.ttf in Resources */,
 				DE27D64DC108E3DA1245F43B /* Inter-Regular.ttf in Resources */,
 				A9F22F05C0390DF8AAB4A297 /* PlayfairDisplay-SemiBold.ttf in Resources */,
@@ -588,6 +596,25 @@
 			targetProxy = F21027BD1A57C404F9C3D96A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8CD5FFA1C5A9B962DA1C77BB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19C5B40EDB3791C243DFE74B /* ko */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D58730CA5A94AF87232E02F2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5294FC9D0FB640090FA7E3D1 /* ko */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		2F5A2BA1FA85E8371796560E /* Release */ = {

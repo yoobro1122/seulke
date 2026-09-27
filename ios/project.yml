@@ -35,7 +35,8 @@ targets:
     info:
       path: Seulkeduler/Info.plist
       properties:
-        CFBundleDisplayName: 슬케줄러
+        # 앱 ID 이름에 한글을 쓸 수 없어서(사이드로드 도구가 이 값으로 등록) 기본은 영문, 한국어는 ko.lproj에서
+        CFBundleDisplayName: Seulkeduler
         CFBundleDevelopmentRegion: ko
         CFBundleShortVersionString: $(MARKETING_VERSION)
         CFBundleVersion: $(CURRENT_PROJECT_VERSION)
@@ -104,7 +105,8 @@ targets:
     info:
       path: SeulWidget/Info.plist
       properties:
-        CFBundleDisplayName: 슬케줄러 위젯
+        CFBundleDisplayName: Seulkeduler Widget
+        CFBundleDevelopmentRegion: ko
         CFBundleShortVersionString: $(MARKETING_VERSION)
         CFBundleVersion: $(CURRENT_PROJECT_VERSION)
         NSExtension:
