@@ -27,9 +27,7 @@ struct SeulWidgetView: View {
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
             footer(current: current, next: next, palette: p)
         }
-        .padding(12)
-        .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .background(p.bg.color)
+        .widgetBackground(p.bg.color)
         .widgetURL(URL(string: "seulkeduler://today"))
     }
 
@@ -54,5 +52,31 @@ struct SeulWidgetView: View {
             Text(title).font(SeulFont.medium(11)).foregroundColor(p.ink.color)
         }
         .lineLimit(1)
+    }
+}
+
+
+extension View {
+    /// iOS 17+는 containerBackground로 배경을 지정해야 위젯이 그려진다("Please adopt containerBackground API").
+    /// 이 API는 Xcode 15(Swift 5.9) SDK부터 있으므로 컴파일러 버전으로 분기한다.
+    /// iOS 17+에서는 시스템이 여백을 넣어 주므로 직접 넣는 여백은 iOS 16 이하에서만 쓴다.
+    @ViewBuilder
+    func widgetBackground(_ color: Color) -> some View {
+        #if swift(>=5.9)
+        if #available(iOS 17.0, *) {
+            self.frame(maxWidth: .infinity, maxHeight: .infinity)
+                .containerBackground(color, for: .widget)
+        } else {
+            legacyWidgetBackground(color)
+        }
+        #else
+        legacyWidgetBackground(color)
+        #endif
+    }
+
+    private func legacyWidgetBackground(_ color: Color) -> some View {
+        self.padding(12)
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .background(color)
     }
 }
