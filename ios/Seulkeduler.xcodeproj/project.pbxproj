@@ -1,0 +1,917 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01DD4C29EC131E82A5F9A874 /* EventPickerSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC2C8D73B97E10EEE933F86 /* EventPickerSheet.swift */; };
+		04C188499D99BCCBCC856FD6 /* Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596B0605C1CA2847E55C2BE7 /* Palette.swift */; };
+		0A2C72DE2B7B184C432C6598 /* TimelineListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2FA7BFE48417B3776126E7 /* TimelineListView.swift */; };
+		0DA097965B11A12A006A0CBD /* ThemeEditorSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17542248DF29D44694F62CC1 /* ThemeEditorSheet.swift */; };
+		0F89DEE446990FE9B44F6BFC /* SeulkedulerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D04F3F9E4FBEA11A133386 /* SeulkedulerUITests.swift */; };
+		11115E15213057CE689473BD /* LinkableApps.swift in Sources */ = {isa = PBXBuildFile; fileRef = C381B6455CD262C05271F4C3 /* LinkableApps.swift */; };
+		15266B6AD7360DF093346A1D /* ProgressSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1669274336518574804CAFCF /* ProgressSummaryView.swift */; };
+		17BCA16E02F79DF28159B204 /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F299CB8BCECC82B6945AD01 /* AppStore.swift */; };
+		185E162120EE3404641525D6 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35B2354477BD9CD012B9B36C /* Inter-Medium.ttf */; };
+		1E8C5B47DEAABB20BD7B223F /* IBMPlexMono-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D1A40111010A5D2DEAD165E9 /* IBMPlexMono-Regular.ttf */; };
+		276CC44F24D147807352C4F0 /* SharedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A843D628B15EE9475685E6 /* SharedStore.swift */; };
+		2A00A38BB0876788A62FDEDD /* SeulWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A5E8C57CB36A50597ECBAF /* SeulWidgetView.swift */; };
+		2AD1538537637AF7E566570C /* IBMPlexMono-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAF1A9D75C850400F27B68D4 /* IBMPlexMono-Medium.ttf */; };
+		37663800ECEFE7CFC6E2B778 /* TaskFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28A97789B819122369CBAAA /* TaskFormView.swift */; };
+		41DA21257C5D6A913F68FD93 /* SeulWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF480183876326ED9E8DD555 /* SeulWidget.swift */; };
+		483BE535ADFA009D9FB418F3 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4704BE40A73878745234A9FB /* Inter-Regular.ttf */; };
+		48F6AA63B46854E6B72151CC /* CalendarModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030C79D936DC359F9A8500AD /* CalendarModeView.swift */; };
+		49CCD166CD843230EBA84D42 /* SeulWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A5E8C57CB36A50597ECBAF /* SeulWidgetView.swift */; };
+		4B9DEEB40BF06B4B0D1A2D44 /* IBMPlexMono-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAF1A9D75C850400F27B68D4 /* IBMPlexMono-Medium.ttf */; };
+		5272DEE2612789FB858D5F54 /* DemoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A834559907819CDE3BE08E19 /* DemoData.swift */; };
+		531AB3D764A33FBCD4D12622 /* SeulWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1961ED98AEAD2A69E02E6BF6 /* SeulWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5AF15BA36C140D4DBF0BE844 /* StoreLogicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F499C6AA3E63F36DF41FD261 /* StoreLogicTests.swift */; };
+		62C76865689B80F65326B7F1 /* TodaySheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69C70BC99EC760D78EE0534 /* TodaySheet.swift */; };
+		6346FF8EA32CAF0ACE42FD80 /* RecurrenceSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5D10CCB101F20D64400208 /* RecurrenceSheet.swift */; };
+		635AB549BE527EBC613FEE85 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43608262DD38E54502AA943F /* NotificationService.swift */; };
+		6AE370DE1A52A648D15FB11B /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37E6FC5EAD1FD75AF7818DA /* Models.swift */; };
+		6E7EDAE47C84FB5800CA5EB0 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D457A935E0E91E8DEB4AB65A /* RootView.swift */; };
+		7020B5B2FEB25072BC397BB7 /* SeulDial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540026E47EE3A0E68216FEE0 /* SeulDial.swift */; };
+		726EB1C3CAB97BE36B0B0227 /* ReactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736DDF66D1C3100F5E3254BD /* ReactionView.swift */; };
+		72B662718B35B066EBB18930 /* DayUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7372BDCE2B24415377BF8A /* DayUtil.swift */; };
+		744FEA36BB3C33FE9215A8EB /* IBMPlexMono-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D1A40111010A5D2DEAD165E9 /* IBMPlexMono-Regular.ttf */; };
+		7A92BCBE2610368A4E36416B /* SeulkedulerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B23A8764CED32836FC6A06 /* SeulkedulerApp.swift */; };
+		7E8A98624E0EE6A92DAEA11E /* SeulDial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540026E47EE3A0E68216FEE0 /* SeulDial.swift */; };
+		A9F22F05C0390DF8AAB4A297 /* PlayfairDisplay-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D6AB231EF841A0F710461CCE /* PlayfairDisplay-SemiBold.ttf */; };
+		AB2BB5AB6C48E0D44544D781 /* AppPickerSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E9ABB4D9A63DFF6122B1D6 /* AppPickerSheet.swift */; };
+		AC635027A3A8DAC3F37EE8E3 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37E6FC5EAD1FD75AF7818DA /* Models.swift */; };
+		ADCFCD33774ED1AAB6CB374B /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5638C00E8F281D80A2AB3E /* Theme.swift */; };
+		AF226498FBB95C079971C746 /* TimelineMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6232D4D2BE1E48F99EB079 /* TimelineMath.swift */; };
+		C1FD2F0E7E3B49BBD516233C /* SharedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A843D628B15EE9475685E6 /* SharedStore.swift */; };
+		C50D78A6C659C3339C1EFBEE /* Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596B0605C1CA2847E55C2BE7 /* Palette.swift */; };
+		C9988F4D57DE1A9E77862E3E /* BlockDetailSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89401E33844563BCF878F756 /* BlockDetailSheet.swift */; };
+		D1ED033114B53D9B49BFA2ED /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E24975B1481968487B5BC5 /* SettingsView.swift */; };
+		D5B619CCC78DB310A45D0C4B /* Haptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE007510E8019E8318429FF5 /* Haptics.swift */; };
+		D6249174FC5F1D8247F962C6 /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53ED29B37DA2BDAD5C20A770 /* TodayView.swift */; };
+		DB62AD658C5DB8D1A78E037B /* PlayfairDisplay-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D6AB231EF841A0F710461CCE /* PlayfairDisplay-SemiBold.ttf */; };
+		DE27D64DC108E3DA1245F43B /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4704BE40A73878745234A9FB /* Inter-Regular.ttf */; };
+		E590BABF2D497E8EFCA227BA /* DayUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7372BDCE2B24415377BF8A /* DayUtil.swift */; };
+		E87F8BE39CFE427293D4B35A /* TasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB75F8C7ECD932469DE1036E /* TasksView.swift */; };
+		EB02FB3B96D892CA8729AEA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D5B849FE144B4FE2B1C2FE3 /* Assets.xcassets */; };
+		EBD8DFCDD791007DB1655938 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35B2354477BD9CD012B9B36C /* Inter-Medium.ttf */; };
+		EDB6DF1969E7DB6BC82F2563 /* CheckinOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589581B033924CF7F30A81E0 /* CheckinOverlay.swift */; };
+		F09BAF696AC45E440FE34BE6 /* DialModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CF0969F26E5B550EE5B7F4 /* DialModeView.swift */; };
+		FC2F7900DACA8116883DBF6B /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741409CF31BC60E1125F5FB1 /* Components.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2276034B5EDA5BB4328466F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6BFACC4627D323E4954D9AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E96BFDF76037267B50156078;
+			remoteInfo = Seulkeduler;
+		};
+		41694F374CEAA95E54B19E8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6BFACC4627D323E4954D9AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DBFD0C08F891C213CBBD96B;
+			remoteInfo = SeulWidget;
+		};
+		F21027BD1A57C404F9C3D96A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6BFACC4627D323E4954D9AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E96BFDF76037267B50156078;
+			remoteInfo = Seulkeduler;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8F5A1C3AC161B7CA12E35EDD /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				531AB3D764A33FBCD4D12622 /* SeulWidget.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		014AAE845B4DD8CC0127DA9D /* Seulkeduler.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Seulkeduler.entitlements; sourceTree = "<group>"; };
+		030C79D936DC359F9A8500AD /* CalendarModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarModeView.swift; sourceTree = "<group>"; };
+		09B23A8764CED32836FC6A06 /* SeulkedulerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeulkedulerApp.swift; sourceTree = "<group>"; };
+		1669274336518574804CAFCF /* ProgressSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressSummaryView.swift; sourceTree = "<group>"; };
+		17542248DF29D44694F62CC1 /* ThemeEditorSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeEditorSheet.swift; sourceTree = "<group>"; };
+		1961ED98AEAD2A69E02E6BF6 /* SeulWidget.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = SeulWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D5B849FE144B4FE2B1C2FE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F299CB8BCECC82B6945AD01 /* AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
+		2C2FA7BFE48417B3776126E7 /* TimelineListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineListView.swift; sourceTree = "<group>"; };
+		32E24975B1481968487B5BC5 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		32E9ABB4D9A63DFF6122B1D6 /* AppPickerSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPickerSheet.swift; sourceTree = "<group>"; };
+		35B2354477BD9CD012B9B36C /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
+		3A7372BDCE2B24415377BF8A /* DayUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayUtil.swift; sourceTree = "<group>"; };
+		3F5D10CCB101F20D64400208 /* RecurrenceSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecurrenceSheet.swift; sourceTree = "<group>"; };
+		3F6CA1FC93A63FF83C8D9B59 /* SeulkedulerTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = SeulkedulerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43608262DD38E54502AA943F /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		4704BE40A73878745234A9FB /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		47CF0969F26E5B550EE5B7F4 /* DialModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialModeView.swift; sourceTree = "<group>"; };
+		47D04F3F9E4FBEA11A133386 /* SeulkedulerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeulkedulerUITests.swift; sourceTree = "<group>"; };
+		49C04C1F9FBF381A76B374CA /* SeulkedulerUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = SeulkedulerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		51F9527560AED56CE8FC4557 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		53ED29B37DA2BDAD5C20A770 /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
+		540026E47EE3A0E68216FEE0 /* SeulDial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeulDial.swift; sourceTree = "<group>"; };
+		589581B033924CF7F30A81E0 /* CheckinOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckinOverlay.swift; sourceTree = "<group>"; };
+		596B0605C1CA2847E55C2BE7 /* Palette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palette.swift; sourceTree = "<group>"; };
+		71A5E8C57CB36A50597ECBAF /* SeulWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeulWidgetView.swift; sourceTree = "<group>"; };
+		736DDF66D1C3100F5E3254BD /* ReactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactionView.swift; sourceTree = "<group>"; };
+		741409CF31BC60E1125F5FB1 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		7B6232D4D2BE1E48F99EB079 /* TimelineMath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineMath.swift; sourceTree = "<group>"; };
+		81931C230E9B764F4C451825 /* SeulWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SeulWidget.entitlements; sourceTree = "<group>"; };
+		89401E33844563BCF878F756 /* BlockDetailSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockDetailSheet.swift; sourceTree = "<group>"; };
+		8C5638C00E8F281D80A2AB3E /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		A3E9DE2F94BB99D930EFBDF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A834559907819CDE3BE08E19 /* DemoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoData.swift; sourceTree = "<group>"; };
+		B8A843D628B15EE9475685E6 /* SharedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedStore.swift; sourceTree = "<group>"; };
+		BAC2C8D73B97E10EEE933F86 /* EventPickerSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventPickerSheet.swift; sourceTree = "<group>"; };
+		BB75F8C7ECD932469DE1036E /* TasksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksView.swift; sourceTree = "<group>"; };
+		BE007510E8019E8318429FF5 /* Haptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haptics.swift; sourceTree = "<group>"; };
+		C237D1BCB7B5C9932F2934BE /* project.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = project.yml; sourceTree = "<group>"; };
+		C381B6455CD262C05271F4C3 /* LinkableApps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkableApps.swift; sourceTree = "<group>"; };
+		C41C5C8C9F7357419DD333D0 /* Seulkeduler.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Seulkeduler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C69C70BC99EC760D78EE0534 /* TodaySheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodaySheet.swift; sourceTree = "<group>"; };
+		D1A40111010A5D2DEAD165E9 /* IBMPlexMono-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexMono-Regular.ttf"; sourceTree = "<group>"; };
+		D457A935E0E91E8DEB4AB65A /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		D6AB231EF841A0F710461CCE /* PlayfairDisplay-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-SemiBold.ttf"; sourceTree = "<group>"; };
+		DF480183876326ED9E8DD555 /* SeulWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeulWidget.swift; sourceTree = "<group>"; };
+		E28A97789B819122369CBAAA /* TaskFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskFormView.swift; sourceTree = "<group>"; };
+		F37E6FC5EAD1FD75AF7818DA /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		F499C6AA3E63F36DF41FD261 /* StoreLogicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreLogicTests.swift; sourceTree = "<group>"; };
+		FAF1A9D75C850400F27B68D4 /* IBMPlexMono-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexMono-Medium.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		10871B729775400E112538BD /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				32E9ABB4D9A63DFF6122B1D6 /* AppPickerSheet.swift */,
+				1669274336518574804CAFCF /* ProgressSummaryView.swift */,
+				E28A97789B819122369CBAAA /* TaskFormView.swift */,
+				BB75F8C7ECD932469DE1036E /* TasksView.swift */,
+			);
+			path = Tasks;
+			sourceTree = "<group>";
+		};
+		309AC29B449DCE2A13F800FD /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				32E24975B1481968487B5BC5 /* SettingsView.swift */,
+				17542248DF29D44694F62CC1 /* ThemeEditorSheet.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		32719520D5B36AD9FD733DC6 = {
+			isa = PBXGroup;
+			children = (
+				C237D1BCB7B5C9932F2934BE /* project.yml */,
+				B0289BDAB16BAB682942DD24 /* Resources */,
+				9B1E77C3306126F2213B0F67 /* Seulkeduler */,
+				D8D6C772A13CDD9F28196A72 /* SeulkedulerTests */,
+				F2696ED3621D987C904D4C40 /* SeulkedulerUITests */,
+				80DDE3032C43863C5721AF39 /* SeulWidget */,
+				F06C98990753017A34AE4F64 /* Shared */,
+				7A4B71E29957F9ACDDD7BCC9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		384AC9D430696188300BA7C1 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				D457A935E0E91E8DEB4AB65A /* RootView.swift */,
+				09B23A8764CED32836FC6A06 /* SeulkedulerApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		42010E6385F2BA72F88D263B /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				8C5638C00E8F281D80A2AB3E /* Theme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		4FAA632AC771BC96906C42C7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BE007510E8019E8318429FF5 /* Haptics.swift */,
+				C381B6455CD262C05271F4C3 /* LinkableApps.swift */,
+				43608262DD38E54502AA943F /* NotificationService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		58E46178575150991FF7609A /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				1F299CB8BCECC82B6945AD01 /* AppStore.swift */,
+				A834559907819CDE3BE08E19 /* DemoData.swift */,
+				7B6232D4D2BE1E48F99EB079 /* TimelineMath.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		64230FE243C3575ADB9F4C8A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FAF1A9D75C850400F27B68D4 /* IBMPlexMono-Medium.ttf */,
+				D1A40111010A5D2DEAD165E9 /* IBMPlexMono-Regular.ttf */,
+				35B2354477BD9CD012B9B36C /* Inter-Medium.ttf */,
+				4704BE40A73878745234A9FB /* Inter-Regular.ttf */,
+				D6AB231EF841A0F710461CCE /* PlayfairDisplay-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		7A4B71E29957F9ACDDD7BCC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C41C5C8C9F7357419DD333D0 /* Seulkeduler.app */,
+				3F6CA1FC93A63FF83C8D9B59 /* SeulkedulerTests.xctest */,
+				49C04C1F9FBF381A76B374CA /* SeulkedulerUITests.xctest */,
+				1961ED98AEAD2A69E02E6BF6 /* SeulWidget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80DDE3032C43863C5721AF39 /* SeulWidget */ = {
+			isa = PBXGroup;
+			children = (
+				51F9527560AED56CE8FC4557 /* Info.plist */,
+				81931C230E9B764F4C451825 /* SeulWidget.entitlements */,
+				DF480183876326ED9E8DD555 /* SeulWidget.swift */,
+			);
+			path = SeulWidget;
+			sourceTree = "<group>";
+		};
+		934FADD91CFEC93294CA4FE6 /* Checkin */ = {
+			isa = PBXGroup;
+			children = (
+				589581B033924CF7F30A81E0 /* CheckinOverlay.swift */,
+				736DDF66D1C3100F5E3254BD /* ReactionView.swift */,
+			);
+			path = Checkin;
+			sourceTree = "<group>";
+		};
+		9B1E77C3306126F2213B0F67 /* Seulkeduler */ = {
+			isa = PBXGroup;
+			children = (
+				A3E9DE2F94BB99D930EFBDF7 /* Info.plist */,
+				014AAE845B4DD8CC0127DA9D /* Seulkeduler.entitlements */,
+				384AC9D430696188300BA7C1 /* App */,
+				4FAA632AC771BC96906C42C7 /* Services */,
+				58E46178575150991FF7609A /* Store */,
+				42010E6385F2BA72F88D263B /* Theme */,
+				E9FFCACEF951DC82E3A14B44 /* Views */,
+			);
+			path = Seulkeduler;
+			sourceTree = "<group>";
+		};
+		9D0DA7484000EF8FACA03FF4 /* Today */ = {
+			isa = PBXGroup;
+			children = (
+				89401E33844563BCF878F756 /* BlockDetailSheet.swift */,
+				030C79D936DC359F9A8500AD /* CalendarModeView.swift */,
+				47CF0969F26E5B550EE5B7F4 /* DialModeView.swift */,
+				BAC2C8D73B97E10EEE933F86 /* EventPickerSheet.swift */,
+				3F5D10CCB101F20D64400208 /* RecurrenceSheet.swift */,
+				2C2FA7BFE48417B3776126E7 /* TimelineListView.swift */,
+				C69C70BC99EC760D78EE0534 /* TodaySheet.swift */,
+				53ED29B37DA2BDAD5C20A770 /* TodayView.swift */,
+			);
+			path = Today;
+			sourceTree = "<group>";
+		};
+		B0289BDAB16BAB682942DD24 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1D5B849FE144B4FE2B1C2FE3 /* Assets.xcassets */,
+				64230FE243C3575ADB9F4C8A /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D8D6C772A13CDD9F28196A72 /* SeulkedulerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F499C6AA3E63F36DF41FD261 /* StoreLogicTests.swift */,
+			);
+			path = SeulkedulerTests;
+			sourceTree = "<group>";
+		};
+		E20C399B921054868C7F0788 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				741409CF31BC60E1125F5FB1 /* Components.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		E9FFCACEF951DC82E3A14B44 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				934FADD91CFEC93294CA4FE6 /* Checkin */,
+				E20C399B921054868C7F0788 /* Common */,
+				309AC29B449DCE2A13F800FD /* Settings */,
+				10871B729775400E112538BD /* Tasks */,
+				9D0DA7484000EF8FACA03FF4 /* Today */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F06C98990753017A34AE4F64 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				3A7372BDCE2B24415377BF8A /* DayUtil.swift */,
+				F37E6FC5EAD1FD75AF7818DA /* Models.swift */,
+				596B0605C1CA2847E55C2BE7 /* Palette.swift */,
+				540026E47EE3A0E68216FEE0 /* SeulDial.swift */,
+				71A5E8C57CB36A50597ECBAF /* SeulWidgetView.swift */,
+				B8A843D628B15EE9475685E6 /* SharedStore.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		F2696ED3621D987C904D4C40 /* SeulkedulerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				47D04F3F9E4FBEA11A133386 /* SeulkedulerUITests.swift */,
+			);
+			path = SeulkedulerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F230F5A5BD5C85F09B6DAF4 /* SeulkedulerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD4A89D5CD7496DE94CD2894 /* Build configuration list for PBXNativeTarget "SeulkedulerUITests" */;
+			buildPhases = (
+				7151A4E54FA4B8E565BBDF58 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94A1D7E3F0A1E59F8268A5E6 /* PBXTargetDependency */,
+			);
+			name = SeulkedulerUITests;
+			productName = SeulkedulerUITests;
+			productReference = 49C04C1F9FBF381A76B374CA /* SeulkedulerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		7DBFD0C08F891C213CBBD96B /* SeulWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 063473FA0A8757EFABA9C13D /* Build configuration list for PBXNativeTarget "SeulWidget" */;
+			buildPhases = (
+				992C8CF35C879B52D06F88E9 /* Sources */,
+				B62A360AF4B0E349B1833BC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SeulWidget;
+			productName = SeulWidget;
+			productReference = 1961ED98AEAD2A69E02E6BF6 /* SeulWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		E96BFDF76037267B50156078 /* Seulkeduler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDBFD53BEF85FB1E4E38C4F3 /* Build configuration list for PBXNativeTarget "Seulkeduler" */;
+			buildPhases = (
+				E8C44B6F04083A313544AD52 /* Sources */,
+				2653789C1953BB0B38EE7431 /* Resources */,
+				8F5A1C3AC161B7CA12E35EDD /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				048B73C8AFA629FB2C5A00FE /* PBXTargetDependency */,
+			);
+			name = Seulkeduler;
+			productName = Seulkeduler;
+			productReference = C41C5C8C9F7357419DD333D0 /* Seulkeduler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3B5B91BF8050A3ED2DD0F6C /* SeulkedulerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3648F6BFB23C5DE2D845DCA8 /* Build configuration list for PBXNativeTarget "SeulkedulerTests" */;
+			buildPhases = (
+				A3385FE2DE7DC1B1F1C6A10D /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				044E6680FC60E3F052844478 /* PBXTargetDependency */,
+			);
+			name = SeulkedulerTests;
+			productName = SeulkedulerTests;
+			productReference = 3F6CA1FC93A63FF83C8D9B59 /* SeulkedulerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6BFACC4627D323E4954D9AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					5F230F5A5BD5C85F09B6DAF4 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+						TestTargetID = E96BFDF76037267B50156078;
+					};
+					7DBFD0C08F891C213CBBD96B = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					E96BFDF76037267B50156078 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					F3B5B91BF8050A3ED2DD0F6C = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F9A6F5160D70A04796152019 /* Build configuration list for PBXProject "Seulkeduler" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = ko;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				ko,
+			);
+			mainGroup = 32719520D5B36AD9FD733DC6;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7DBFD0C08F891C213CBBD96B /* SeulWidget */,
+				E96BFDF76037267B50156078 /* Seulkeduler */,
+				F3B5B91BF8050A3ED2DD0F6C /* SeulkedulerTests */,
+				5F230F5A5BD5C85F09B6DAF4 /* SeulkedulerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2653789C1953BB0B38EE7431 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB02FB3B96D892CA8729AEA0 /* Assets.xcassets in Resources */,
+				2AD1538537637AF7E566570C /* IBMPlexMono-Medium.ttf in Resources */,
+				1E8C5B47DEAABB20BD7B223F /* IBMPlexMono-Regular.ttf in Resources */,
+				185E162120EE3404641525D6 /* Inter-Medium.ttf in Resources */,
+				483BE535ADFA009D9FB418F3 /* Inter-Regular.ttf in Resources */,
+				DB62AD658C5DB8D1A78E037B /* PlayfairDisplay-SemiBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B62A360AF4B0E349B1833BC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B9DEEB40BF06B4B0D1A2D44 /* IBMPlexMono-Medium.ttf in Resources */,
+				744FEA36BB3C33FE9215A8EB /* IBMPlexMono-Regular.ttf in Resources */,
+				EBD8DFCDD791007DB1655938 /* Inter-Medium.ttf in Resources */,
+				DE27D64DC108E3DA1245F43B /* Inter-Regular.ttf in Resources */,
+				A9F22F05C0390DF8AAB4A297 /* PlayfairDisplay-SemiBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7151A4E54FA4B8E565BBDF58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F89DEE446990FE9B44F6BFC /* SeulkedulerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		992C8CF35C879B52D06F88E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E590BABF2D497E8EFCA227BA /* DayUtil.swift in Sources */,
+				6AE370DE1A52A648D15FB11B /* Models.swift in Sources */,
+				04C188499D99BCCBCC856FD6 /* Palette.swift in Sources */,
+				7020B5B2FEB25072BC397BB7 /* SeulDial.swift in Sources */,
+				41DA21257C5D6A913F68FD93 /* SeulWidget.swift in Sources */,
+				49CCD166CD843230EBA84D42 /* SeulWidgetView.swift in Sources */,
+				C1FD2F0E7E3B49BBD516233C /* SharedStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3385FE2DE7DC1B1F1C6A10D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AF15BA36C140D4DBF0BE844 /* StoreLogicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8C44B6F04083A313544AD52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB2BB5AB6C48E0D44544D781 /* AppPickerSheet.swift in Sources */,
+				17BCA16E02F79DF28159B204 /* AppStore.swift in Sources */,
+				C9988F4D57DE1A9E77862E3E /* BlockDetailSheet.swift in Sources */,
+				48F6AA63B46854E6B72151CC /* CalendarModeView.swift in Sources */,
+				EDB6DF1969E7DB6BC82F2563 /* CheckinOverlay.swift in Sources */,
+				FC2F7900DACA8116883DBF6B /* Components.swift in Sources */,
+				72B662718B35B066EBB18930 /* DayUtil.swift in Sources */,
+				5272DEE2612789FB858D5F54 /* DemoData.swift in Sources */,
+				F09BAF696AC45E440FE34BE6 /* DialModeView.swift in Sources */,
+				01DD4C29EC131E82A5F9A874 /* EventPickerSheet.swift in Sources */,
+				D5B619CCC78DB310A45D0C4B /* Haptics.swift in Sources */,
+				11115E15213057CE689473BD /* LinkableApps.swift in Sources */,
+				AC635027A3A8DAC3F37EE8E3 /* Models.swift in Sources */,
+				635AB549BE527EBC613FEE85 /* NotificationService.swift in Sources */,
+				C50D78A6C659C3339C1EFBEE /* Palette.swift in Sources */,
+				15266B6AD7360DF093346A1D /* ProgressSummaryView.swift in Sources */,
+				726EB1C3CAB97BE36B0B0227 /* ReactionView.swift in Sources */,
+				6346FF8EA32CAF0ACE42FD80 /* RecurrenceSheet.swift in Sources */,
+				6E7EDAE47C84FB5800CA5EB0 /* RootView.swift in Sources */,
+				D1ED033114B53D9B49BFA2ED /* SettingsView.swift in Sources */,
+				7E8A98624E0EE6A92DAEA11E /* SeulDial.swift in Sources */,
+				2A00A38BB0876788A62FDEDD /* SeulWidgetView.swift in Sources */,
+				7A92BCBE2610368A4E36416B /* SeulkedulerApp.swift in Sources */,
+				276CC44F24D147807352C4F0 /* SharedStore.swift in Sources */,
+				37663800ECEFE7CFC6E2B778 /* TaskFormView.swift in Sources */,
+				E87F8BE39CFE427293D4B35A /* TasksView.swift in Sources */,
+				ADCFCD33774ED1AAB6CB374B /* Theme.swift in Sources */,
+				0DA097965B11A12A006A0CBD /* ThemeEditorSheet.swift in Sources */,
+				0A2C72DE2B7B184C432C6598 /* TimelineListView.swift in Sources */,
+				AF226498FBB95C079971C746 /* TimelineMath.swift in Sources */,
+				62C76865689B80F65326B7F1 /* TodaySheet.swift in Sources */,
+				D6249174FC5F1D8247F962C6 /* TodayView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		044E6680FC60E3F052844478 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E96BFDF76037267B50156078 /* Seulkeduler */;
+			targetProxy = 2276034B5EDA5BB4328466F8 /* PBXContainerItemProxy */;
+		};
+		048B73C8AFA629FB2C5A00FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7DBFD0C08F891C213CBBD96B /* SeulWidget */;
+			targetProxy = 41694F374CEAA95E54B19E8E /* PBXContainerItemProxy */;
+		};
+		94A1D7E3F0A1E59F8268A5E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E96BFDF76037267B50156078 /* Seulkeduler */;
+			targetProxy = F21027BD1A57C404F9C3D96A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2F5A2BA1FA85E8371796560E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.growv.seulkeduler.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Seulkeduler;
+			};
+			name = Release;
+		};
+		37E6369438EBEE98BC498BB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3912B1EFC67A3BC9C26C8352 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.growv.seulkeduler.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Seulkeduler;
+			};
+			name = Debug;
+		};
+		478732C4FB0F87701544E28E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		6039B57FA6C6948A28892304 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = SeulWidget/SeulWidget.entitlements;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SeulWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.growv.seulkeduler.widget;
+				PRODUCT_NAME = SeulWidget;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		7B37C4811A6DDB6C52F24A9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Seulkeduler/Seulkeduler.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Seulkeduler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.growv.seulkeduler;
+				PRODUCT_NAME = Seulkeduler;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		9184E4CF237F95CF915847F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.growv.seulkeduler.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Seulkeduler.app/Seulkeduler";
+			};
+			name = Debug;
+		};
+		A032FC0609A90939ED6CC59D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = SeulWidget/SeulWidget.entitlements;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SeulWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.growv.seulkeduler.widget;
+				PRODUCT_NAME = SeulWidget;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A3C38978870D170E98EDB9EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Seulkeduler/Seulkeduler.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Seulkeduler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.growv.seulkeduler;
+				PRODUCT_NAME = Seulkeduler;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CED3BD8E3729600D8CB15F1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.growv.seulkeduler.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Seulkeduler.app/Seulkeduler";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		063473FA0A8757EFABA9C13D /* Build configuration list for PBXNativeTarget "SeulWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A032FC0609A90939ED6CC59D /* Debug */,
+				6039B57FA6C6948A28892304 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3648F6BFB23C5DE2D845DCA8 /* Build configuration list for PBXNativeTarget "SeulkedulerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9184E4CF237F95CF915847F2 /* Debug */,
+				CED3BD8E3729600D8CB15F1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CDBFD53BEF85FB1E4E38C4F3 /* Build configuration list for PBXNativeTarget "Seulkeduler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3C38978870D170E98EDB9EC /* Debug */,
+				7B37C4811A6DDB6C52F24A9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DD4A89D5CD7496DE94CD2894 /* Build configuration list for PBXNativeTarget "SeulkedulerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3912B1EFC67A3BC9C26C8352 /* Debug */,
+				2F5A2BA1FA85E8371796560E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F9A6F5160D70A04796152019 /* Build configuration list for PBXProject "Seulkeduler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37E6369438EBEE98BC498BB9 /* Debug */,
+				478732C4FB0F87701544E28E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6BFACC4627D323E4954D9AD /* Project object */;
+}

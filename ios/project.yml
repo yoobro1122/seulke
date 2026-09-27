@@ -1,0 +1,162 @@
+name: Seulkeduler
+options:
+  bundleIdPrefix: com.growv
+  deploymentTarget:
+    iOS: "16.0"
+  createIntermediateGroups: true
+  developmentLanguage: ko
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    MARKETING_VERSION: "1.0.0"
+    CURRENT_PROJECT_VERSION: "1"
+    CODE_SIGN_STYLE: Automatic
+    DEVELOPMENT_TEAM: ""
+fileGroups:
+  - project.yml
+targets:
+  Seulkeduler:
+    type: application
+    platform: iOS
+    sources:
+      - path: Seulkeduler
+      - path: Shared
+      - path: Resources/Fonts
+        buildPhase: resources
+      - path: Resources/Assets.xcassets
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.growv.seulkeduler
+        PRODUCT_NAME: Seulkeduler
+        TARGETED_DEVICE_FAMILY: "1"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        GENERATE_INFOPLIST_FILE: NO
+    info:
+      path: Seulkeduler/Info.plist
+      properties:
+        CFBundleDisplayName: 슬케줄러
+        CFBundleDevelopmentRegion: ko
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        UILaunchScreen:
+          UIColorName: LaunchBackground
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+        UIRequiresFullScreen: true
+        UIApplicationSupportsIndirectInputEvents: true
+        ITSAppUsesNonExemptEncryption: false
+        UIAppFonts:
+          - PlayfairDisplay-SemiBold.ttf
+          - Inter-Regular.ttf
+          - Inter-Medium.ttf
+          - IBMPlexMono-Regular.ttf
+          - IBMPlexMono-Medium.ttf
+        CFBundleURLTypes:
+          - CFBundleURLName: com.growv.seulkeduler
+            CFBundleURLSchemes:
+              - seulkeduler
+        LSApplicationQueriesSchemes:
+          - kakaotalk
+          - youtube
+          - instagram
+          - notion
+          - slack
+          - naversearchapp
+          - nmap
+          - kakaomap
+          - spotify
+          - melonapp
+          - supertoss
+          - baemin
+          - coupang
+          - duolingo
+          - nikerunclub
+          - calshow
+          - mobilenotes
+          - photos-redirect
+          - music
+          - maps
+          - shortcuts
+          - x-web-search
+    entitlements:
+      path: Seulkeduler/Seulkeduler.entitlements
+      properties:
+        com.apple.security.application-groups:
+          - group.com.growv.seulkeduler
+    dependencies:
+      - target: SeulWidget
+  SeulWidget:
+    type: app-extension
+    platform: iOS
+    sources:
+      - path: SeulWidget
+      - path: Shared
+      - path: Resources/Fonts
+        buildPhase: resources
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.growv.seulkeduler.widget
+        PRODUCT_NAME: SeulWidget
+        TARGETED_DEVICE_FAMILY: "1"
+        GENERATE_INFOPLIST_FILE: NO
+        SKIP_INSTALL: YES
+    info:
+      path: SeulWidget/Info.plist
+      properties:
+        CFBundleDisplayName: 슬케줄러 위젯
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        NSExtension:
+          NSExtensionPointIdentifier: com.apple.widgetkit-extension
+        UIAppFonts:
+          - PlayfairDisplay-SemiBold.ttf
+          - Inter-Regular.ttf
+          - Inter-Medium.ttf
+          - IBMPlexMono-Regular.ttf
+          - IBMPlexMono-Medium.ttf
+    entitlements:
+      path: SeulWidget/SeulWidget.entitlements
+      properties:
+        com.apple.security.application-groups:
+          - group.com.growv.seulkeduler
+  SeulkedulerTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: SeulkedulerTests
+    dependencies:
+      - target: Seulkeduler
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.growv.seulkeduler.tests
+        GENERATE_INFOPLIST_FILE: YES
+        TEST_HOST: $(BUILT_PRODUCTS_DIR)/Seulkeduler.app/Seulkeduler
+        BUNDLE_LOADER: $(TEST_HOST)
+  SeulkedulerUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources:
+      - path: SeulkedulerUITests
+    dependencies:
+      - target: Seulkeduler
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.growv.seulkeduler.uitests
+        GENERATE_INFOPLIST_FILE: YES
+        TEST_TARGET_NAME: Seulkeduler
+schemes:
+  Seulkeduler:
+    build:
+      targets:
+        Seulkeduler: all
+        SeulWidget: all
+    run:
+      config: Debug
+    test:
+      config: Debug
+      targets:
+        - SeulkedulerTests
+        - SeulkedulerUITests
+    archive:
+      config: Release
